@@ -7,7 +7,7 @@ st.title(":cup_with_straw: Customize Your Smoothie! :cup_with_straw:")
 st.write("Choose the fruits you want in your Smoothie!")
 
 # Establish Snowflake connection
-conn = snowflake.connector.connect(user='your_user', password='your_password', account='your_account', warehouse='your_warehouse', database='your_database', schema='your_schema')
+conn = snowflake.connector.connect(user='Muskan3011', password='Muskan@3011', account='GMIESNQ.GM54560', warehouse='COMPUTE_WH', database='SMOOTHIES', schema='Public')
 cursor = conn.cursor(DictCursor)
 
 # Retrieve fruit options from Snowflake table
